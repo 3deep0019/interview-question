@@ -329,7 +329,6 @@ export function renderPage(
     afterBody,
     left,
     right,
-    footer: Footer,
     frame: frameName,
   } = components
   const Body = BodyConstructor()
@@ -359,8 +358,7 @@ export function renderPage(
                 pageBody: Content,
                 afterBody,
                 left,
-                right,
-                footer: Footer,
+                right
               }),
             ]}
           </Body>
