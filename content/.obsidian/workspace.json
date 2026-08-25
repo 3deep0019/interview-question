@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "cb858e21f1cb97ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "3be3a503e7512b5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7c8cb30e2c257ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. OOP/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8cadc35f392031d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4fff616ab7b4e788",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03e6a9461864b5cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "622c13c8adf319e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9d56ad2431fa0efd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4bf1b50d60ffda39",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7ec6df9fc59b737",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "568ae8419fcfdbe0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "680fc2e8e3054845",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "bcab1308e5bc800d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5aeacd8317f6293b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "62a73a6ba23da419",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e7c8cb30e2c257ff",
+  "lastOpenFiles": [
+    "Node.js/Introduction to Node.js/3. History of Node.js.md",
+    "Node.js/Introduction to Node.js/2. Why use Node.js.md",
+    "Node.js/Introduction to Node.js/1. What is Node.js?.md",
+    "index.md",
+    "Node.js/Introduction to Node.js",
+    "1. OOP/index.md",
+    "TypeScript",
+    "Javascript",
+    "Redis",
+    "SQL",
+    "MongoDB",
+    "React",
+    "Vue",
+    "API Design",
+    "System Design",
+    "Pasted image 20260701191710.png",
+    "Pasted image 20260701191627.png",
+    "Pasted image 20260701191558.png",
+    "Pasted image 20260701191526.png",
+    "Pasted image 20260701191448.png",
+    "Pasted image 20260701191436.png",
+    "Pasted image 20260701191427.png",
+    "Pasted image 20260701191419.png",
+    "Pasted image 20260701191410.png",
+    "Pasted image 20260701191359.png",
+    "Context.md",
+    "Vue.js/6. Debounce and throttling — how to handle too much data in the frontend.md",
+    "Vue.js/5. If there are 20,000 results, how do you handle them in the frontend.md",
+    "Vue.js/4. Virtual DOM — how Vue and React achieve it.md",
+    "Vue.js/3. Basic Button Component.md",
+    "Vue.js/2. Computed vs Watcher.md",
+    "Vue.js/1. Lifecycle Order.md",
+    "Javascript/Output Questions/3. Problem.md",
+    "Javascript/Output Questions/2. Problem.md",
+    "Javascript/Output Questions/1. Problem.md",
+    "Javascript/index.md",
+    "Javascript/7. Scope.md",
+    "Javascript/6. Var vs Let vs Const.md",
+    "Javascript/5. Lexical Scope.md",
+    "Javascript/4. Closure reference to value.md",
+    "Javascript/3. Closure.md",
+    "Javascript/2. Hoisting.md",
+    "Javascript/1. Temporal Dead Zone (TDZ).md",
+    "Fundamentals of Computer Networking/4. Network Types.md",
+    "Fundamentals of Computer Networking/3. Important Networking Devices.md",
+    "Fundamentals of Computer Networking/2. The Story of Internet and Networking.md"
+  ]
+}

@@ -2,15 +2,57 @@ import { FullSlug, isFolderPath, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
 import { QuartzComponent, QuartzComponentProps } from "./types"
+import { GlobalConfiguration } from "../cfg"
 
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
-export function byDateAndAlphabetical(): SortFn {
+/**
+ * Natural sort comparison that treats numbers within strings as numeric values.
+ * This ensures "Chapter 2" comes before "Chapter 10" instead of "Chapter 10" < "Chapter 2".
+ */
+function naturalCompare(a: string, b: string): number {
+  const splitA = a.match(/(\d+|\D+)/g) || []
+  const splitB = b.match(/(\d+|\D+)/g) || []
+  
+  const minLength = Math.min(splitA.length, splitB.length)
+  
+  for (let i = 0; i < minLength; i++) {
+    const aPart = splitA[i]
+    const bPart = splitB[i]
+    const aIsNum = /^\d+$/.test(aPart)
+    const bIsNum = /^\d+$/.test(bPart)
+    
+    if (aIsNum && bIsNum) {
+      // Both are numbers, compare numerically
+      const numA = parseInt(aPart, 10)
+      const numB = parseInt(bPart, 10)
+      if (numA !== numB) {
+        return numA - numB
+      }
+    } else if (aIsNum || bIsNum) {
+      // One is a number, numbers come before text
+      return aIsNum ? -1 : 1
+    } else {
+      // Both are text, compare alphabetically
+      const compare = aPart.localeCompare(bPart)
+      if (compare !== 0) {
+        return compare
+      }
+    }
+  }
+  
+  // If one string is a prefix of the other, shorter comes first
+  return splitA.length - splitB.length
+}
+
+export function byDateAndAlphabetical(cfg: GlobalConfiguration): SortFn {
   return (f1, f2) => {
     // Sort by date/alphabetical
     if (f1.dates && f2.dates) {
       // sort descending
-      return getDate(f2)!.getTime() - getDate(f1)!.getTime()
+      const dateDiff = getDate(cfg, f2)!.getTime() - getDate(cfg, f1)!.getTime()
+      if (dateDiff !== 0) return dateDiff
+      // If dates are equal, fall through to natural sort by title
     } else if (f1.dates && !f2.dates) {
       // prioritize files with dates
       return -1
@@ -18,14 +60,14 @@ export function byDateAndAlphabetical(): SortFn {
       return 1
     }
 
-    // otherwise, sort lexographically by title
+    // otherwise, sort naturally by title (treats numbers as numbers)
     const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
     const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
-    return f1Title.localeCompare(f2Title)
+    return naturalCompare(f1Title, f2Title)
   }
 }
 
-export function byDateAndAlphabeticalFolderFirst(): SortFn {
+export function byDateAndAlphabeticalFolderFirst(cfg: GlobalConfiguration): SortFn {
   return (f1, f2) => {
     // Sort folders first
     const f1IsFolder = isFolderPath(f1.slug ?? "")
@@ -36,7 +78,9 @@ export function byDateAndAlphabeticalFolderFirst(): SortFn {
     // If both are folders or both are files, sort by date/alphabetical
     if (f1.dates && f2.dates) {
       // sort descending
-      return getDate(f2)!.getTime() - getDate(f1)!.getTime()
+      const dateDiff = getDate(cfg, f2)!.getTime() - getDate(cfg, f1)!.getTime()
+      if (dateDiff !== 0) return dateDiff
+      // If dates are equal, fall through to natural sort by title
     } else if (f1.dates && !f2.dates) {
       // prioritize files with dates
       return -1
@@ -44,10 +88,10 @@ export function byDateAndAlphabeticalFolderFirst(): SortFn {
       return 1
     }
 
-    // otherwise, sort lexographically by title
+    // otherwise, sort naturally by title (treats numbers as numbers)
     const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
     const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
-    return f1Title.localeCompare(f2Title)
+    return naturalCompare(f1Title, f2Title)
   }
 }
 
@@ -57,7 +101,7 @@ type Props = {
 } & QuartzComponentProps
 
 export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort }: Props) => {
-  const sorter = sort ?? byDateAndAlphabeticalFolderFirst()
+  const sorter = sort ?? byDateAndAlphabeticalFolderFirst(cfg)
   let list = allFiles.sort(sorter)
   if (limit) {
     list = list.slice(0, limit)
@@ -72,13 +116,12 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
         return (
           <li class="section-li">
             <div class="section">
-              <p class="meta">{page.dates && <Date date={getDate(page)!} locale={cfg.locale} />}</p>
+              <p class="meta">
+                {page.dates && <Date date={getDate(cfg, page)!} locale={cfg.locale} />}
+              </p>
               <div class="desc">
                 <h3>
-                  <a
-                    href={resolveRelative(fileData.slug!, page.slug!)}
-                    class="internal internal-link"
-                  >
+                  <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                     {title}
                   </a>
                 </h3>

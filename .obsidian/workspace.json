@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "6012fcb139b5f028",
+    "type": "split",
+    "children": [
+      {
+        "id": "09e338b1964dbcde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "801b2df910f12084",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Interview Question 2026/Backend/7. How Node.js Works.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7. How Node.js Works"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d66172ce9df4db4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dbbec9b3d38a8af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "153df247c269e0a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f8a72afdb9f2d6ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0fee03a91e5bc461",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e40491b0c4bc27d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8f296057f671b8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96ee70351106d2a6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "1e034e1d4cc7d055",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "4535672d0767dab6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d5f3c5dd0005af13",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4162b1e575786363",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "801b2df910f12084",
+  "lastOpenFiles": [
+    "content/Interview Question 2026/Backend/7. How Node.js Works.md",
+    "content/Interview Question 2026/Backend/13. Why store the token in a cookie, and what other ways to prevent token theft?.md",
+    "content/Interview Question 2026/Backend/12. Multiple signup requests with the same data.md",
+    "content/Interview Question 2026/Backend/11. I'm on the checkout page and the token expires.md",
+    "content/Interview Question 2026/Backend/10. RBAC.md",
+    "content/Interview Question 2026/Backend/9. next(err).md",
+    "content/Interview Question 2026/Javascript/7. Scope.md",
+    "content/Interview Question 2026/Javascript/5. Lexical Scope.md",
+    "content/Interview Question 2026/Javascript/4. Closure reference to value.md",
+    "content/Interview Question 2026/Javascript/3. Closure.md",
+    "content/Interview Question 2026/Javascript/2. Hoisting.md",
+    "content/Interview Question 2026/Javascript/1. Temporal Dead Zone (TDZ).md",
+    "content/Interview Question 2026/DBMS/6. Mongo + SQL query — total score of students where age > 25.md",
+    "content/Interview Question 2026/DBMS/5. Why is offset not preferred for pagination.md",
+    "content/LLD/hhfh.md",
+    "content/LLD/SOLID Design Principles.md",
+    "Pasted image 20260821151215.png",
+    "content/LLD/OOPs.md",
+    "content/LLD/Introduction to LLD.md",
+    "content/GCP/Associate Cloud Engineer/2. Deploy a LAMP Stack with Google Cloud Marketplace.md",
+    "content/GCP/Associate Cloud Engineer/1. Explore the Google Cloud Console and Cloud Shell.md",
+    "content/Interview Question 2026/CP/Codechef/Starters 251/9. Separation.md",
+    "content/GCP/Associate Cloud Engineer",
+    "content/GCP",
+    "content/Interview Question 2026/CP/Codechef/Starters 251/8. Make Distinct (Hard).md",
+    "content/Interview Question 2026/CP/Codechef/Starters 251/7. Binary Split (Hard).md",
+    "content/Interview Question 2026/CP/Codechef/Starters 251/6. Make Distinct.md",
+    "content/Interview Question 2026/CP/Codechef/Starters 251/5. Binary Split.md",
+    "content/Interview Question 2026/CP/Codechef/Starters 251/4. Chocolate Game.md",
+    "content/Interview Question 2026/CP/Codechef/Starters 251",
+    "content/Interview Question 2026/CP",
+    "content/Interview Question 2026/CP/Codechef",
+    "content/Interview Question 2026/CP/AtCoder/C",
+    "content/Interview Question 2026/CP/AtCoder/B",
+    "content/Interview Question 2026/CP/AtCoder/A",
+    "Untitled",
+    "content/Interview Question 2026/CP/AtCoder",
+    "public/index-og-image.webp",
+    "public/Take-you-forward/Interview-Follow-ups-og-image.webp",
+    "public/Take-you-forward/6.-Left-Rotate-Array-by-K-Places-og-image.webp",
+    "public/Take-you-forward/5.-Left-Rotate-Array-by-One-og-image.webp",
+    "public/Take-you-forward/4.-Maximum-Consecutive-Ones-og-image.webp",
+    "public/Take-you-forward/3.-Second-Largest-Element-og-image.webp",
+    "public/Take-you-forward/2.-Largest-Element-og-image.webp",
+    "public/Take-you-forward/1.-Linear-Search-og-image.webp",
+    "public/System-Design/6.-Availability-Patterns/3.-Fail-Over-og-image.webp"
+  ]
+}
