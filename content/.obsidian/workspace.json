@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Problems/1. Combine Two Tables.md",
+                "file": "SQL/Problems/6. Game Play Analysis I.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Combine Two Tables"
+              "title": "6. Game Play Analysis I"
             }
           }
         ],
@@ -205,8 +205,14 @@
   },
   "active": "dd336c8a596f385f",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-09-15 15.36.44.excalidraw.md",
+    "SQL/Problems/5. Rising Temperature.md",
+    "SQL/Problems/6. Game Play Analysis I.md",
+    "SQL/Problems/5. Delete Duplicate Emails.md",
+    "SQL/Problems/4. Customers Who Never Order.md",
+    "SQL/Problems/3. Duplicate Emails.md",
+    "SQL/Problems/2. Employees Earning More Than Their Managers.md",
     "SQL/Problems/1. Combine Two Tables.md",
+    "Excalidraw/Drawing 2026-09-15 15.36.44.excalidraw.md",
     "SQL/Problems",
     "1. OOP/index.md",
     "Excalidraw",
@@ -244,12 +250,6 @@
     "Javascript/Output Questions/1. Problem.md",
     "Javascript/index.md",
     "Javascript/7. Scope.md",
-    "Javascript/6. Var vs Let vs Const.md",
-    "Javascript/5. Lexical Scope.md",
-    "Javascript/4. Closure reference to value.md",
-    "Javascript/3. Closure.md",
-    "Javascript/2. Hoisting.md",
-    "Javascript/1. Temporal Dead Zone (TDZ).md",
-    "Fundamentals of Computer Networking/4. Network Types.md"
+    "Javascript/6. Var vs Let vs Const.md"
   ]
 }
