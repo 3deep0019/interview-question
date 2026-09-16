@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Problems/6. Game Play Analysis I.md",
+                "file": "SQL/Problems/7. Employee Bonus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Game Play Analysis I"
+              "title": "7. Employee Bonus"
             }
           }
         ],
@@ -205,8 +205,9 @@
   },
   "active": "dd336c8a596f385f",
   "lastOpenFiles": [
-    "SQL/Problems/5. Rising Temperature.md",
     "SQL/Problems/6. Game Play Analysis I.md",
+    "SQL/Problems/7. Employee Bonus.md",
+    "SQL/Problems/5. Rising Temperature.md",
     "SQL/Problems/5. Delete Duplicate Emails.md",
     "SQL/Problems/4. Customers Who Never Order.md",
     "SQL/Problems/3. Duplicate Emails.md",
@@ -249,7 +250,6 @@
     "Javascript/Output Questions/2. Problem.md",
     "Javascript/Output Questions/1. Problem.md",
     "Javascript/index.md",
-    "Javascript/7. Scope.md",
-    "Javascript/6. Var vs Let vs Const.md"
+    "Javascript/7. Scope.md"
   ]
 }
