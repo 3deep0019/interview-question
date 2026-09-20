@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Problems/8. Find Customer Referee.md",
+                "file": "SQL/Problems/9. Customer Placing the Largest Number of Orders.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Find Customer Referee"
+              "title": "9. Customer Placing the Largest Number of Orders"
             }
           }
         ],
@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 467.74609375
   },
   "right": {
     "id": "4bf1b50d60ffda39",
@@ -205,14 +205,15 @@
   },
   "active": "dd336c8a596f385f",
   "lastOpenFiles": [
-    "SQL/Problems/7. Employee Bonus.md",
-    "SQL/Problems/8. Find Customer Referee.md",
     "SQL/Problems/6. Game Play Analysis I.md",
+    "SQL/Problems/9. Customer Placing the Largest Number of Orders.md",
     "SQL/Problems/5. Rising Temperature.md",
     "SQL/Problems/5. Delete Duplicate Emails.md",
     "SQL/Problems/4. Customers Who Never Order.md",
     "SQL/Problems/3. Duplicate Emails.md",
     "SQL/Problems/2. Employees Earning More Than Their Managers.md",
+    "SQL/Problems/8. Find Customer Referee.md",
+    "SQL/Problems/7. Employee Bonus.md",
     "SQL/Problems/1. Combine Two Tables.md",
     "Excalidraw/Drawing 2026-09-15 15.36.44.excalidraw.md",
     "SQL/Problems",
@@ -249,7 +250,6 @@
     "Vue.js/1. Lifecycle Order.md",
     "Javascript/Output Questions/3. Problem.md",
     "Javascript/Output Questions/2. Problem.md",
-    "Javascript/Output Questions/1. Problem.md",
-    "Javascript/index.md"
+    "Javascript/Output Questions/1. Problem.md"
   ]
 }
