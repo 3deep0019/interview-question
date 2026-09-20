@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Problems/10. Big Countries.md",
+                "file": "SQL/Problems/11. Classes With at Least 5 Students.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10. Big Countries"
+              "title": "11. Classes With at Least 5 Students"
             }
           }
         ],
@@ -205,8 +205,9 @@
   },
   "active": "dd336c8a596f385f",
   "lastOpenFiles": [
-    "SQL/Problems/9. Customer Placing the Largest Number of Orders.md",
     "SQL/Problems/10. Big Countries.md",
+    "SQL/Problems/11. Classes With at Least 5 Students.md",
+    "SQL/Problems/9. Customer Placing the Largest Number of Orders.md",
     "SQL/Problems/6. Game Play Analysis I.md",
     "SQL/Problems/5. Rising Temperature.md",
     "SQL/Problems/5. Delete Duplicate Emails.md",
@@ -249,7 +250,6 @@
     "Vue.js/3. Basic Button Component.md",
     "Vue.js/2. Computed vs Watcher.md",
     "Vue.js/1. Lifecycle Order.md",
-    "Javascript/Output Questions/3. Problem.md",
-    "Javascript/Output Questions/2. Problem.md"
+    "Javascript/Output Questions/3. Problem.md"
   ]
 }
