@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Problems/5. Rising Temperature.md",
+                "file": "Javascript copy/Output Questions/1. Problem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Rising Temperature"
+              "title": "1. Problem"
             }
           }
         ],
@@ -217,8 +217,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "03e6a9461864b5cf",
+  "active": "749406e20d4adab4",
   "lastOpenFiles": [
+    "Javascript copy/1. Temporal Dead Zone (TDZ).md",
+    "Backend/6. Process a large file (e.g 10 GB ).md",
+    "Backend/5. What is Pagination?.md",
+    "Backend/4. What is ORM?.md",
+    "Backend/3. What is Middleware?.md",
+    "Backend/2. What is Health Check.md",
+    "Backend/1. What is CORS?.md",
+    "SQL/Problems/5. Rising Temperature.md",
     "Vue.js/6. Debounce and throttling — how to handle too much data in the frontend.md",
     "Vue.js/5. If there are 20,000 results, how do you handle them in the frontend.md",
     "Vue.js/4. Virtual DOM — how Vue and React achieve it.md",
@@ -237,18 +245,10 @@
     "Javascript copy/4. Closure reference to value.md",
     "Javascript copy/3. Closure.md",
     "Javascript copy/2. Hoisting.md",
-    "Javascript copy/1. Temporal Dead Zone (TDZ).md",
     "Javascript copy",
     "DBMS/7. Consistent Hashing.md",
     "DBMS/6. Mongo + SQL query — total score of students where age > 25.md",
-    "DBMS/5. Why is offset not preferred for pagination.md",
-    "DBMS/4. Transaction And ACID.md",
-    "DBMS/3. JOINS.md",
-    "DBMS/2. BulkInsert.md",
-    "DBMS/1. What is a Database Trigger?.md",
     "DBMS",
-    "Backend/9. next(err).md",
-    "Backend/8. next().md",
     "Backend",
     "SQL/Problems",
     "Excalidraw",
