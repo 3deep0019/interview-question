@@ -41,10 +41,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/System Design/hotel-booking-promo-codes.excalidraw.md"
+                "file": "Excalidraw/System Design/distributed-rate-limiter.excalidraw"
               },
               "icon": "excalidraw-icon",
-              "title": "hotel-booking-promo-codes.excalidraw"
+              "title": "distributed-rate-limiter"
             }
           }
         ],
@@ -215,8 +215,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "03e6a9461864b5cf",
+  "active": "749406e20d4adab4",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-10-15 11.32.12.excalidraw.md",
+    "Excalidraw/System Design/hotel-booking-promo-codes.excalidraw",
+    "Excalidraw/System Design/load-balancer.excalidraw",
+    "Excalidraw/System Design/notification-platform.excalidraw",
+    "Excalidraw/System Design/distributed-rate-limiter.excalidraw",
+    "Excalidraw/System Design/hotel-booking-promo-codes.excalidraw.md",
     "Drawing 2026-09-15 15.36.44.excalidraw.md",
     "Excalidraw/System Design",
     "Excalidraw/Libraries/local-library.excalidrawlib",
@@ -245,14 +251,7 @@
     "Javascript copy/6. Var vs Let vs Const.md",
     "Javascript copy/5. Lexical Scope.md",
     "Javascript copy/4. Closure reference to value.md",
-    "Javascript copy/3. Closure.md",
-    "Javascript copy/2. Hoisting.md",
     "Javascript copy",
-    "DBMS/7. Consistent Hashing.md",
-    "DBMS",
-    "Backend",
-    "SQL/Problems",
-    "Excalidraw",
     "Pasted image 20260701191710.png",
     "Pasted image 20260701191627.png",
     "Pasted image 20260701191558.png",
